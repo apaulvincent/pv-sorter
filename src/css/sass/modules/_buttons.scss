@@ -1,0 +1,48 @@
+a {
+	text-decoration: none;
+	@include transition(0.4s all ease);
+	color: $c_c_1;
+}
+
+button, a, img {
+	outline: none;
+}
+
+.btn {
+	display: inline-block;;
+	padding: 0 20px;
+	color: #fff;
+	font-size: em(14px);
+
+	height: 40px;
+	line-height: 42px;
+
+	font-family: $f_a_1;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	background: $c_c_1;
+	border: 1px solid $c_c_1;
+
+	@include transition(0.4s all ease);
+
+	&:hover {
+		background: #fff;
+		color: $c_c_1;
+	}
+
+}
+
+.btn-sm {
+
+	font-size: em(12px);
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+
+	@extend .btn;
+
+}
+
+

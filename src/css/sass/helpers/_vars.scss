@@ -1,0 +1,75 @@
+// ======================================================================
+   // Vars
+// ======================================================================
+
+$base-font-size: 16px;
+
+// BODY
+$c_a_1: #333; 
+$c_a_2: #000; 
+
+
+// HEADING
+$c_b_1: #666;
+
+
+// HIGHLIGHT
+$c_c_1: #1db5f4; 
+
+
+
+// MAIN FONT
+$f_a_1: 'RobotoRegular', sans-serif;
+$f_a_2: 'RobotoLight', sans-serif;
+$f_a_3: 'RobotoMedium', sans-serif;
+
+
+// SECONDARY FONT
+$f_b_1: 'RobotoRegular', sans-serif;
+
+
+// TERTIARY FONT
+$f_c: 'RobotoRegular', sans-serif;
+
+
+
+.f_a {
+	font-weight: 300;
+}
+	.f_a_400 {
+		font-weight: 400;
+	}
+	.f_a_600 {
+		font-weight: 600;
+	}
+	.f_a_700 {
+		font-weight: 700;
+	}
+
+
+
+
+.f_b {
+	font-weight: 300;
+}
+
+	.f_b_400 {
+		font-weight: 400;
+	}
+	.f_b_500 {
+		font-weight: 500;
+	}
+	.f_b_600 {
+		font-weight: 600;
+	}
+	.f_b_700 {
+		font-weight: 700;
+	}
+
+
+
+
+.f_c {
+	font-weight: 700;
+}
+
